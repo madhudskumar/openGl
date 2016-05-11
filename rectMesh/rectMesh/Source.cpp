@@ -6,6 +6,7 @@ float r = 3, c = 3.3;
 void draw(int a, int b, int ch = 0) {
 	for (float i = 0; i < a; i += .05)
 	{
+		glColor3f(0,0,1);
 		glBegin(GL_LINE_STRIP);
 		for (float j = 0; j < b; j += .05)
 			if (ch)
